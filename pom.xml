@@ -70,8 +70,19 @@
       <artifactId>maven-pmd-plugin</artifactId>
       <version>3.14.0</version>
     </plugin>
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-changelog-plugin</artifactId> 
+    </plugin>
     </plugins>
   </reporting>
+
+
+  <scm>
+    <connection>scm:git:git://gitlab.istic.univ-rennes1.fr/llahougue/tpmaven.git</connection>
+    <url>http://gitlab.istic.univ-rennes1.fr/llahougue/tpmaven.git/svn/monappli-web</url>
+  </scm>
+
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
