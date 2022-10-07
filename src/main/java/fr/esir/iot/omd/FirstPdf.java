@@ -58,7 +58,7 @@ public class FirstPdf {
     }
 
     static void methodeMorte(Document document) {
-        Document documento = new Document();
+        Document documente = new Document();
         document.addTitle("My first PDF");
         document.addSubject("Using iText");
         document.addKeywords("Java, PDF, iText");
